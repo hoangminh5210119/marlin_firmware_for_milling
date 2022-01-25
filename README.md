@@ -111,7 +111,7 @@ trong đó:
 
 ### Bù trừ vị trí trục z (trường hợp dùng BLTOUCH hoặc cảm biến tiệm cận).
 
-- Hiện tại dùng trục z là điểm dò nên để bằng 0
+- Hiện tại dùng trục z là điểm dò (dùng mũi phay) nên để bằng 0
 
 ```
 #define NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }

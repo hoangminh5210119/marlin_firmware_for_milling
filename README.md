@@ -109,7 +109,7 @@ trong đó:
 #define NOZZLE_AS_PROBE
 ```
 
-### Bù trừ vị trí trục z (trường hợp dùng btouch hoặc tương tự).
+### Bù trừ vị trí trục z (trường hợp dùng BLTOUCH hoặc cảm biến tiệm cận).
 
 - Hiện tại dùng trục z là điểm dò nên để bằng 0
 

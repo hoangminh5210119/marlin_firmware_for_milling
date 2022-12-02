@@ -1380,12 +1380,12 @@
 // @section machine
 
 // The size of the printable area
-// #define X_BED_SIZE 170 //190
-// #define Y_BED_SIZE 270 //300
+#define X_BED_SIZE 165 //190
+#define Y_BED_SIZE 265 //300
 // #define X_BED_SIZE 100 //190
 // #define Y_BED_SIZE 100 //300
-#define X_BED_SIZE 65
-#define Y_BED_SIZE 45
+// #define X_BED_SIZE 65
+// #define Y_BED_SIZE 45
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
@@ -2127,7 +2127,7 @@
  * just remove some extraneous menu items to recover space.
  */
 //#define NO_LCD_MENUS
-// #define SLIM_LCD_MENUS
+#define SLIM_LCD_MENUS
 
 //
 // ENCODER SETTINGS
